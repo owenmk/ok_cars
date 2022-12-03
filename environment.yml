@@ -1,0 +1,21 @@
+name: ok_cars
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - black
+  - isort
+  - opencv
+  - python=3.9
+  - pip
+  - jupyter
+  - jupyterlab
+  - jupyterlab_code_formatter 
+  - matplotlib
+  - nb_conda_kernels
+  - plotly
+  - pytorch
+  - torchvision
+  - pip:
+    - torchviz
+    - pandas
